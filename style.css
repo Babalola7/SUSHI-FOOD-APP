@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('Sushi-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.content {
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 170px;
+    font-family: 'Exo 2', sans-serif;
+}
+span {
+    font-weight: bolder;
+}
+.container {
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: 450;
+}
+button {
+    padding: 12px 60px;
+    margin: 15px;
+    font-size: medium;
+    font-weight: 500;
+    transition: .4s;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+    color: peru;
+    transform: scale(1.1);
+}
